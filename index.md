@@ -14,7 +14,7 @@ The SmartCampus project started in September 2013, and involves a team of 18 per
 
 ## Who is behind ?
 
-SmartCampus project is an initiative of the I3S laboratory and the University of Nice Sophia-Antipolis. 
+SmartCampus project is an initiative of the I3S laboratory and the University of Nice Sophia-Antipolis. It is currently being financed by the I3S laboratory.
 
 ## A growing Project
 

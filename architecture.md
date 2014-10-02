@@ -3,7 +3,7 @@ layout: page
 title: Architecture
 longtitle: Project architecture
 shortcut: true
-permalink: /architecture/
+permalink: /sc-architecture/
 ---
 
 The goal of this project is to design an architecture able to **collect** data from remote sensor networks, to **store** them and to give **access** to them in a **efficient** way.
@@ -68,4 +68,4 @@ The middleware has been designed and implemented by Cyril Cecchinel, Thomas Di'M
 * A collection server used to collect data
 * [An access server]("http://smartcampus.unice.fr/data-api/sensors/") used to expose the Data API to developers
 
-Some datasets are already available and their number and size increases day after day!
+Some datasets are already available and their number and size increase day after day!

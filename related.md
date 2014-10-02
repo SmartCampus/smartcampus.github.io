@@ -3,7 +3,7 @@ layout: page
 title: Related projects
 longtitle: Related projects
 shortcut: true
-permalink: /related/
+permalink: /sc-related/
 ---
 	Projects using directly or indirectly the SmartCampus infrastructure
 

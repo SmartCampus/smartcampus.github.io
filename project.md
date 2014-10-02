@@ -3,7 +3,7 @@ layout: page
 title: Project
 longtitle: Project description
 shortcut: true
-permalink: /project/
+permalink: /sc-project/
 ---
 
 The SmartCampus project is an initiative of the I3S Laboratory to build a scalable software architecture taming the data collection from the remote sensor networks.
