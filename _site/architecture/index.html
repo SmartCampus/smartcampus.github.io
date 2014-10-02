@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Architecture</title>
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="">
+<link rel="canonical" href="/architecture/">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap">
+<a class="site-title" href="/">SmartCampus</a>
+<nav class="site-nav">
+<a href="#" class="menu-icon">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+<path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+<path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+<path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+</svg>
+</a>
+<div class="trigger">
+<a class="page-link" href="/project">Project</a>
+<a class="page-link" href="/architecture">Architecture</a>
+<a class="page-link" href="/publications">Publications</a>
+<a class="page-link" href="/related">Related projects</a>
+<a class="page-link" href="/contacts">Contacts</a>
+</div>
+</nav>
+</div>
+</header>
+<div class="page-content">
+<div class="wrap">
+<div class="post">
+<header class="post-header">
+<h1>Project architecture</h1>
+</header>
+<article class="post-content">
+<p>The goal of this project is to design an architecture able to <strong>collect</strong> data from remote sensor networks, to <strong>store</strong> them and to give <strong>access</strong> to them in a <strong>efficient</strong> way.</p>
+
+<ol>
+  <li>Sensors: <strong>Collect</strong> environmental data</li>
+  <li>Routing network: <strong>Transport</strong> data from sensors to the SmartCampus middleware</li>
+  <li>Middleware &amp; API: A cloud-based middleware allowing the <strong>storage</strong> and the <strong>retrieval</strong> of data</li>
+</ol>
+
+<h2 id="sensor-networks">Sensor networks</h2>
+<p>The SmartCampus sensor networks are build around a two-stage topology: </p>
+
+<ul>
+  <li>Sensors and Sensors platforms</li>
+  <li>Bridge</li>
+</ul>
+
+<p>\centerline{\includegraphics[height=2in]{myimage.png}}</p>
+
+<h3 id="sensors-and-sensors-platforms">Sensors and Sensors platforms</h3>
+<p><strong>Sensors</strong> are considered as black boxes, transforming a physical quantity into a measurment. </p>
+
+<p><strong>Sensor platforms</strong> aggregates several sensors connected to it. The board is usually implemented by a micro-controller (e.g. Arduino). The platform also adds metadata such as the sensor name and the current timestamp. The responsability of a board is to collect the data and send them to its associated bridge.</p>
+
+<p>As sensor platform are often runned by a micro-controller, it is possible to embed executable code. </p>
+
+<p><strong>Implementation @ I3S</strong></p>
+
+<p>We have developped a <em>SmartCampusOS</em> on Arduino sensor platforms allowing the dynamic querying and management of sensor.</p>
+
+<p>The code embedded on Arduino has been designed and implemented by Jean Oudot and Cyril Cecchinel. The very last version of SmartCampusOS is <a href="https://github.com/SmartCampus/ArduinoSensorServer/tree/master/CodeArduino">avalaible on Github</a>. 
+This embedded OS allow a <strong>remote</strong> user to:</p>
+
+<ul>
+  <li>manage sensors (addition, deletion, updating, sleep)</li>
+  <li>manage and get informations on the sensor board (reboot, timestamp, board name)</li>
+  <li>use wire and wireless communication (USB or Zigbee)</li>
+  <li>fetch peridodically sensors for new values</li>
+</ul>
+
+<p>The sensor network deployed at I3S allow the collection of <em>temperature</em>, <em>light</em> and <em>door opening</em>. We use Groove, Electronic Bricks and DFRobot sensors. Sensors platforms can either use USB or Zigbee communications.</p>
+
+<h3 id="bridge">Bridge</h3>
+<p>The bridge responsibility is to aggregate data streams for several boards. The different boards can be connected to the bridge using physical links (e.g. USB) or wireless protocols (e.g. Zigbee). The bridge is connected to the Internet and send the received data to the SmartCampus middleware.</p>
+
+<p>The bridge also acts as a <em>virtual sensor board</em> to query and manage sensors if the real sensor board can’t embed code.</p>
+
+<p><strong>Implementation @ I3S</strong></p>
+
+<p>Bridges are nano-computer (Raspberry Pi and Cubieboard) executing a ARM optimized Linux distribution. The program aggregating data from sensor platforms is a standard Java application. This applicaion has been designed and implemented by Jean Oudot and Cyril Cecchinel and is <a href="https://github.com/SmartCampus/bridge/tree/master">avalaible on Github</a>. It also offering a configuration API to remotly 1) set up the sensor plateforms and 2) assign endpoint for measures.</p>
+
+<h2 id="middleware">Middleware</h2>
+
+<p>The middleware is a cloud-based application offering three destinct APIs:
+1. Reception API used by the bridges to send data
+2. Configuration API to support the remote configuration of sensor networks
+3. Data API used to interact with the collected datasets</p>
+
+<p>It is designed to scale verticaly (e.g. for storage purpose by enlarging the databases size) and horizontaly (e.g. load-balancing requests). The scalability has been tested thanks to a sensor simulator developped by Romain Alexandre, Cécile Camillieri, Fabien Foerster and Jérôme Rancati (see Related projects).</p>
+
+<p>The data API is also designed to support <em>Virtual Sensors</em> (server-side transformation rules applied on data - e.g. Celsius to Farenheit temperature conversion)</p>
+
+<p><strong>Implementation @ I3S</strong>
+The middleware has been designed and implemented by Cyril Cecchinel, Thomas Di’Meco, Matthieu Jimenez and Laura Martellotto and is <a href="https://github.com/SmartCampus/middleware/tree/master">avalaible on Github</a>. The middleware has been deployed on two virtual servers at I3S: </p>
+
+<ul>
+  <li>A collection server used to collect data</li>
+  <li><a href="&quot;http://smartcampus.unice.fr/data-api/sensors/&quot;">An access server</a> used to expose the Data API to developers</li>
+</ul>
+
+<p>Some datasets are already available and their number and size increases day after day!</p>
+
+</article>
+</div>
+</div>
+</div>
+
+</body>
+</html>
