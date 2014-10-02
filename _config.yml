@@ -1,6 +1,8 @@
 title: SmartCampus
 email: cecchine@i3s.unice.fr
 description: ""
+baseurl: "/smartcampus.github.io"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
