@@ -18,7 +18,6 @@ The SmartCampus sensor networks are build around a two-stage topology:
 * Sensors and Sensors platforms
 * Bridge
 
- \centerline{\includegraphics[height=2in]{myimage.png}}
 
 
 ### Sensors and Sensors platforms
