@@ -14,7 +14,6 @@ permalink: /related/
 
 ## Composition of Data collection policies on a sensor network
 *Cyril Cecchinel*
-This project is 
 
 ## Sensor Visu Like
 *Christian Brel, Emmanuel Pouthier*

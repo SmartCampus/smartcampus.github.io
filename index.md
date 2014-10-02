@@ -9,7 +9,7 @@ menu: false
 SmartCampus project aims to equip the SophiaTech campus (Sophia Antipolis, France)
 with sensors collecting data about campus usage. 
 
-The goal of this project is to consider sensors deployed in buildings as an open platform to let final users (i.e., students, pro- fessors, administrative staff) build their own innovative services on top of the collected (open) data.
+The goal of this project is to consider sensors deployed in buildings as an open platform to let final users (i.e., students, professors, administrative staff) build their own innovative services on top of the collected (open) data.
 The SmartCampus project started in September 2013, and involves a team of 18 persons. 
 
 ## Who is behind ?
