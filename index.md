@@ -4,15 +4,13 @@ title: Home
 menu: false
 ---
 
-## Motivations
+## A glimpse on the Project
 
 Big Data is one of the most important research challenges for the 2020 horizon. This paradigm relies on the collection of *tremendous* amount of data to support the innovation in the upcoming decades. According to the IDC group, the amount of world data will be 44 times greater in this decade, from 0.8 zettabytes to 35 zettabytes. 
 
 In the same period, the Gartner group expects the *Internet of Things* (IoT) to reach 26 billions of things connected to the Internet.
 
 The coupling between the *IoT* and *Big Data* is strong. Unfortunately, there is no comprehensive approach to support the collection of data from sensors and their exploitation.
-
-## A glimpse on the Project
 
 The **SmartCampus project** aims to equip the SophiaTech campus (Sophia Antipolis, France)
 with sensors collecting data about campus usage. 
