@@ -18,7 +18,7 @@ permalink: /sc-publications/
 
 ## Deliverables
 
-* Data API documentation (soon)
+* [Data API documentation](https://docs.google.com/document/d/1r3krx-U56LGHZQtTPgR5YPahJ3p-uxDfOuJaXZXfRv8/pub)
 
 ## Sources
 
