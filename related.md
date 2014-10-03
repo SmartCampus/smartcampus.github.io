@@ -8,10 +8,10 @@ permalink: /sc-related/
 	Projects using directly or indirectly the SmartCampus infrastructure
 
 ## Captah
-*Ivan Logre*
+*Ivan Logre, Sébastien Mosser, Michel Riveill*
 
 ## Composition of Data collection policies on a sensor network
-*Cyril Cecchinel*
+*Cyril Cecchinel, Sébastien Mosser, Philippe Collet*
 
 Facing the problem of managing tremendous amounts of data, a commonly approach is to rely on sensor pooling and to push data collected by sensor in a cloud-based platforms.  Consequently, sensors cannot be exploited at
 the same time and one needs to rely on data mining solutions to extract and exploit relevant data according to usage scenarios.
@@ -23,7 +23,7 @@ This project proposes a tooled approch named *COSmIC*  (Composition Operators fo
 [*Link to the COSmIC tool*](https://github.com/ace-design/cosmic/)
 
 ## Sensor Simulation Framework
-*Romain Alexandre, Cécile Camillieri, Fabien Foerster, Jérôme Rancati*
+*Romain Alexandre, Cécile Camillieri, Fabien Foerster, Jérôme Rancati, Sébastien Mosser*
 
 Cloud-based middleware should be designed to receive data from an increasing number of sensors. Most of the time, developpers do not have the budget to buy hundreds of sensors and bulding sensor networks is not a part of their business concerns. Therefore, testing the scalability of their products can become an issue.
 
@@ -38,4 +38,4 @@ These simulations can be performed in real time (e.g. to test the retrieval func
 
 
 ## Sensor Visu Like
-*Christian Brel, Emmanuel Pouthier*
+*Christian Brel, Emmanuel Pouthier, Anne-Marie Pinna-Dery, Philippe Renevier Gonin*

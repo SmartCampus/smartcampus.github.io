@@ -16,9 +16,11 @@ permalink: /sc-publications/
 
 * ["An Architecture to Support the Collection of Big Data in the Internet of Things"](http://www.i3s.unice.fr/~mosser/_media/research/umc14.pdf) - Cyril Cecchinel, Matthieu Jimenez, Sébastien Mosser, Michel Riveill - Proceedings of the International Workshop on Ubiquitous Mobile cloud (UMC'14, co-located with SERVICES), IEEE, pages 1-8, Anchorage, Alaska, USA, 27-2 june 2014.
 
-## Deliverables
+## User documentation
 
 * [Data API documentation](https://docs.google.com/document/d/1r3krx-U56LGHZQtTPgR5YPahJ3p-uxDfOuJaXZXfRv8/pub)
+* *Collection API (soon)*
+* *How-to: Deploy SmartCampus nodes (soon)*
 
 ## Sources
 
