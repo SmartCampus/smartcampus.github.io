@@ -34,7 +34,7 @@ A first prototype of the *SmartCampus* project has been deployed (Summer 2014) a
 
 *A twenty people* have been working, directly or not, with the SmartCampus project for their reseach needs.
 
-*2 scientific publications* linked with SmartCampus.
+*3 scientific publications* linked with SmartCampus.
 
 ## Research interests
 

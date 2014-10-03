@@ -32,6 +32,7 @@ To develop software that fully exploits an large scale sensing infrastructure, i
 This project proposes a tooled approch named *COSmIC*  (Composition Operators for Sensing InfrastruCtures) that tackle issues encountered by developers when they are using small-scale (e.g. University campus) sensor networks (lack of reusability, no sensor sharing, platform heterogenity and low-level programing) 
 
 [*Link to COSmIC tool*](https://github.com/ace-design/cosmic/)
+
 ## Sensor Visu Like
 *Christian Brel, Emmanuel Pouthier*
 
