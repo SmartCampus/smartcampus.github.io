@@ -7,6 +7,21 @@ permalink: /sc-related/
 ---
 	Projects using directly or indirectly the SmartCampus infrastructure
 
+## Captah
+*Ivan Logre*
+
+## Composition of Data collection policies on a sensor network
+*Cyril Cecchinel*
+
+Facing the problem of managing tremendous amounts of data, a commonly approach is to rely on sensor pooling and to push data collected by sensor in a cloud-based platforms.  Consequently, sensors cannot be exploited at
+the same time and one needs to rely on data mining solutions to extract and exploit relevant data according to usage scenarios.
+
+To develop software that fully exploits an large scale sensing infrastructure, it must be considered as a white box. But the developer tasks is then more complex as they have to deal with tedious low-level details of implementation out of their main business concerns.
+
+This project proposes a tooled approch named *COSmIC*  (Composition Operators for Sensing InfrastruCtures) that tackle issues encountered by developers when they are using small-scale (e.g. University campus) sensor networks (lack of reusability, no sensor sharing, platform heterogenity and low-level programing) 
+
+[*Link to the COSmIC tool*](https://github.com/ace-design/cosmic/)
+
 ## Sensor Simulation Framework
 *Romain Alexandre, Cécile Camillieri, Fabien Foerster, Jérôme Rancati*
 
@@ -21,20 +36,6 @@ These simulations can be performed in real time (e.g. to test the retrieval func
 
 [Link to the simulator framework](https://github.com/SmartCampus/SimulationFramework)
 
-## Composition of Data collection policies on a sensor network
-*Cyril Cecchinel*
-
-Facing the problem of managing tremendous amounts of data, a commonly approach is to rely on sensor pooling and to push data collected by sensor in a cloud-based platforms.  Consequently, sensors cannot be exploited at
-the same time and one needs to rely on data mining solutions to extract and exploit relevant data according to usage scenarios.
-
-To develop software that fully exploits an large scale sensing infrastructure, it must be considered as a white box. But the developer tasks is then more complex as they have to deal with tedious low-level details of implementation out of their main business concerns.
-
-This project proposes a tooled approch named *COSmIC*  (Composition Operators for Sensing InfrastruCtures) that tackle issues encountered by developers when they are using small-scale (e.g. University campus) sensor networks (lack of reusability, no sensor sharing, platform heterogenity and low-level programing) 
-
-[*Link to COSmIC tool*](https://github.com/ace-design/cosmic/)
 
 ## Sensor Visu Like
 *Christian Brel, Emmanuel Pouthier*
-
-## Captah
-*Ivan Logre*
