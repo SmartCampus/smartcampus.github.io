@@ -22,4 +22,4 @@ The SmartCampus project started in September 2013.
 
 ## Who is behind ?
 
-SmartCampus project is an initiative of the I3S laboratory and the University of Nice Sophia-Antipolis. It is currently being founded by the I3S laboratory.
+SmartCampus project is an initiative of the I3S laboratory and the University of Nice Sophia-Antipolis. It is currently being funded by the I3S laboratory.
