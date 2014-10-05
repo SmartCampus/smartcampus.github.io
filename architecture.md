@@ -12,12 +12,16 @@ The goal of this project is to design an architecture able to **collect** data f
 2. Routing network: **Transport** data from sensors to the SmartCampus middleware
 3. Middleware & API: A cloud-based middleware allowing the **storage** and the **retrieval** of data
 
+<a href="/assets/threeaxis.png"><img src="/assets/threeaxis.png" height="50%" width="50%" alt="three axis illustration"></a>
+
+
 ## Sensor networks
 The SmartCampus sensor networks are build around a two-stage topology: 
 
 * Sensors and Sensors platforms
 * Bridge
 
+<a href="/assets/network.png"><img src="/assets/network.png" height="50%" width="50%" alt="sensor network illustration"></a>
 
 
 ### Sensors and Sensors platforms
