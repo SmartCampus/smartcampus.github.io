@@ -10,6 +10,14 @@ permalink: /sc-related/
 ## Captah
 *Ivan Logre, Sébastien Mosser, Michel Riveill*
 
+Ivan Logre is focusing his PhD researches on a multi-role approach to bridge the gap between requirements, sensor data and visualization dashboard.
+
+Using a [composition-based approach to support domain variability](http://www.i3s.unice.fr/~logre/docs/papers/ecmfa14.pdf), leading to a DSL of visualization composition, it allows one to design a dashboard by reduction of the visualization domain capabilities.
+
+Ongoing work includes design of languages dedicated to visualization requirements (at the domain expert level of abstraction) and data polishing (virtual sensor, sampling, offset, ...)
+
+More information on [Ivan Logre website](http://www.i3s.unice.fr/~logre/index.html)
+
 ## Composition of Data collection policies on a sensor network
 *Cyril Cecchinel, Sébastien Mosser, Philippe Collet*
 
