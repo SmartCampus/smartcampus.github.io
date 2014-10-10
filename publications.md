@@ -8,7 +8,7 @@ permalink: /sc-publications/
 
 ## International conferences
 
-* "Software Development Support for Shared Sensing Infrastructures: a Generative and Dynamic Approach" - Cyril Cecchinel, Sébastien Mosser, Philippe Collet - Proceedings of the 14th International Conference on Software Reuse (ICSR'15), Springer, pages 1-8, Miami, Florida, 4-6 january 2015
+* ["Software Development Support for Shared Sensing Infrastructures: a Generative and Dynamic Approach"](http://www.i3s.unice.fr/~mosser/_media/research/icsr15.pdf) - Cyril Cecchinel, Sébastien Mosser, Philippe Collet - Proceedings of the 14th International Conference on Software Reuse (ICSR'15), Springer, pages 1-8, Miami, Florida, 4-6 january 2015
 
 * ["Sensor Data Visualisation: a Composition-based Approach to Support Domain Variability"](http://www.i3s.unice.fr/~mosser/_media/research/ecmfa14.pdf) - Ivan Logre, Sébastien Mosser, Philippe Collet, Michel Riveill - Proceedings of the European Conference on Modelling Foundations and Applications (ECMFA'14), pages 1-16, Springer LNCS, York, United Kingdom, 23-24 july 2014
 
