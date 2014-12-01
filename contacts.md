@@ -13,10 +13,18 @@ Do not hesitate to contact us with any questions, remaks, suggestions you may ha
 * [Sébastien Mosser](mailto:mosser@i3s.unice.fr) - Associate Professor - Université Nice-Sophia Antipolis, I3S Laboratory, UMR CNRS 7271 (MODALIS Team) - [Website](http://www.i3s.unice.fr/~mosser/)
 * [Michel Riveill](mailto:riveill@i3s.unice.fr) - Professor, Director of the I3S Laboratory - Université Nice-Sophia Antipolis, I3S Laboratory, UMR CNRS 7271 (RAINBOW Team) - [Website](http://www.i3s.unice.fr/~riveill/)
 
+## Students
+
+
+* Romain Alexandre *
+* Cécile Camillieri *
+* Clément Duffau *
+* Jérôme Rancati *
+
+\* Polytech Nice-Sophia, Final year engineer student (SI5), Software Architecture, {firstname.lastname}@polytech.unice.fr
+
 ## Former members
 
-* Romain Alexandre
-* Cecile Camilieri
 * Adrien Casanova
 * Joel Colinet
 * Thomas Di’Meco
@@ -24,6 +32,5 @@ Do not hesitate to contact us with any questions, remaks, suggestions you may ha
 * Matthieu Jimenez
 * Laura Martellotto
 * Jean Oudot
-* Jérome Rancati
 * Marie-Catherine Turchini
 * Guillaume Zanotti

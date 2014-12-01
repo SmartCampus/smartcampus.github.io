@@ -19,7 +19,7 @@ permalink: /sc-publications/
 ## User documentation
 
 * [Data API documentation](https://docs.google.com/document/d/1r3krx-U56LGHZQtTPgR5YPahJ3p-uxDfOuJaXZXfRv8/pub)
-* *Collection API documentation (soon)*
+* [Bridge-Middleware API documentation](https://docs.google.com/document/d/1ZRwGb-ShrT3yLqX7gKf0cEaIb7PR5lsAa5_vdLPvGag/pub)
 * [How-to: Deploy a SmartCampus sensor platform](https://github.com/SmartCampus/ArduinoSensorServer/wiki/How-to:-Deploy-an-Arduino-Node)
 * *How-to: Deploy a SmartCampus bridge (soon)*
 

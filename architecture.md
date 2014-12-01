@@ -73,7 +73,7 @@ Bridges are nano-computer (Raspberry Pi and Cubieboard) executing a ARM optimize
 The middleware has been designed and implemented by Cyril Cecchinel, Thomas Di'Meco, Matthieu Jimenez and Laura Martellotto and is [avalaible on Github](https://github.com/SmartCampus/middleware/tree/master). The middleware has been deployed on two virtual servers at I3S: 
 
 * A collection server used to collect data
-* [An access server]("http://smartcampus.unice.fr/data-api/sensors/") used to expose the Data API to developers
+* [An access server](http://smartcampus.unice.fr/data-api/sensors/) used to expose the Data API to developers
 
 Some datasets are already available and their number and size increase day after day!
 
