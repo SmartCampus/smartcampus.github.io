@@ -26,3 +26,4 @@ permalink: /sc-publications/
 ## Sources
 
 * [SmartCampus organization](https://github.com/SmartCampus) on GitHub
+* [SmartCampus middleware auto-installer](https://raw.githubusercontent.com/SmartCampus/smartcampus.github.io/master/downloads/install.sh)
