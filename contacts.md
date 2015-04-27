@@ -27,7 +27,7 @@ Do not hesitate to contact us with any questions, remaks, suggestions you may ha
 
 * Adrien Casanova
 * Joel Colinet
-* Thomas Di’Meco
+* Thomas Di Meco
 * Fabien Foerster
 * Matthieu Jimenez
 * Laura Martellotto
