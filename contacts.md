@@ -15,22 +15,21 @@ Do not hesitate to contact us with any questions, remaks, suggestions you may ha
 
 ## Students
 
-
-* Romain Alexandre *
-* Cécile Camillieri *
-* Clément Duffau *
-* Jérôme Rancati *
-
-\* Polytech Nice-Sophia, Final year engineer student (SI5), Software Architecture, {firstname.lastname}@polytech.unice.fr
+ * Benjamin Benni
+ * Tom Dall'Agnol
 
 ## Former members
 
+* Romain Alexandre 
+* Cécile Camillieri
 * Adrien Casanova
 * Joel Colinet
 * Thomas Di Meco
+* Clément Duffau
 * Fabien Foerster
 * Matthieu Jimenez
 * Laura Martellotto
 * Jean Oudot
+* Jérôme Rancati
 * Marie-Catherine Turchini
 * Guillaume Zanotti
